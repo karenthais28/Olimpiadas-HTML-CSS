@@ -1,0 +1,75 @@
+/* Estilos para o header */
+header {
+    background-color: #3c7bf1; /* Um azul forte que remete à vitalidade e esportes */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar o header */
+    background-image: url(img/img\ paris.jpeg);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(6, 245, 18);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    max-width: 800px; /* Largura máxima para o conteúdo */
+    margin: 0 auto; /* Centraliza o main horizontalmente */
+    padding: 20px;
+    text-align: center; /* Centraliza o texto dentro do main */
+}
+
+table {
+    width: 100%; /* Faz com que a tabela ocupe toda a largura do container */
+    border-collapse: collapse; /* Remove espaços entre as bordas das células */
+    margin: 20px 0; /* Espaço acima e abaixo da tabela */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Borda suave nas células */
+    padding: 10px; /* Espaçamento interno nas células */
+    text-align: center; /* Centraliza o texto nas células */
+}
+
+th {
+    background-color: #1e90ff; /* Cor de fundo para o cabeçalho da tabela */
+    color: white; /* Cor do texto */
+}
+
+
+footer {
+    position: fixed; /* Fixa o footer na parte inferior */
+    bottom: 0; /* Coloca o footer no fundo da página */
+    left: 0; /* Alinha à esquerda */
+    right: 0; /* Alinha à direita */
+    background-color: #1e90ff; /* Cor de fundo para o footer */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Espaçamento interno */
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.2); /* Sombra suave acima do footer */
+    z-index: 1000; /* Garante que o footer fique acima de outros elementos */
+}
